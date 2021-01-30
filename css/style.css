@@ -404,8 +404,8 @@ img {
 }
 
 .clients {
-padding-top: 94px;
-padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients-title {
@@ -424,7 +424,6 @@ padding-bottom: 94px;
 .clients-item {
   width: 170px;
   height: 90px;
-  
 }
 
 .clients-item:not(:last-child) {
@@ -505,6 +504,7 @@ padding-bottom: 94px;
 
 .projects-item .link {
   display: block;
+  outline: var(--border-color) solid 1px;
 }
 
 .projects-item .link:focus,
@@ -515,9 +515,7 @@ padding-bottom: 94px;
 
 .project-content {
   padding: 20px 24px;
-  border-right: solid 1px var(--border-color);
-  border-bottom: solid 1px var(--border-color);
-  border-left: solid 1px var(--border-color);
+  
 }
 
 .project-name {
